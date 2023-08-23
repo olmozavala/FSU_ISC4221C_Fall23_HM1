@@ -4,7 +4,9 @@ The objective of this homework is to review some basics concepts of python, toge
 the basics of [NumPy](https://numpy.org/doc/stable/user/absolute_beginners.html) and 
 [Matplotlib](https://matplotlib.org/stable/tutorials/introductory/quick_start.html#sphx-glr-tutorials-introductory-quick-start-py).
 
-All of your answers must be written in a file called `answers_module.py` at the 'root' folder of this repo (except the last question).
+All of your **coding** answers must be written in a file called `answers_module.py` at the **root** folder of this repo (except the last question).
+
+You need to write a report in a file called `report.md` (see example) where you explain your answers and put a link to the related file. 
 
 ## Loops, conditionals, recursive functions (5 pts)
 1) Make a function called **myrec** that computes $f(x) = 2*x - f(x-1)$ for values greater than 0 (0 if x == 0).
@@ -18,9 +20,10 @@ def myrec(x):
 2) Make a function called **basic_io** that will input a path to a folder and return the following information 
 in a **dictionary**: *number of files or folders*, *a list containing the names of the files or folders*, 
 and a *list containing 'file' or 'folder' depending if the corresponding file is a file or a folder*. 
+You can test your function with the folder `test_folder` in this repo (but be sure not to modify the folder contents).
 
 Additional info:
-1. Be sure that the **keys** of your dictionary are the same as the one bellow.
+1. The **keys** of your dictionary **MUST** be the same as the one bellow.
 2. The **files** list should be sorted. (containing the names of files or folder inside the path)
 3. The function should print **"Folder does not exist."** if the input folder does not exist. 
 
@@ -46,9 +49,5 @@ does not exist.
 
 # Matplolib (5 pts)
 
-5) Take a look at the repo [git@github.com:olmozavala/matplotlib_ex.git](git@github.com:olmozavala/matplotlib_ex.git).
-Make a jupyter notebook with the same or similar examples than the file `Basics.py`. Each comment starting with "##"
-should become a new cell in your notebook. 
-
-
-
+5) Take a look at the repo [https://github.com/olmozavala/matplotlib_ex](https://github.com/olmozavala/matplotlib_ex).
+Select 3 examples from the file `Basics.py` and attach the generated plots in your report. 
